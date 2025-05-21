@@ -1,0 +1,9 @@
+# Sensitive config
+nivoda_excel.txt
+
+# Output files
+*.xlsx
+
+# Python artifacts
+__pycache__/
+*.pyc

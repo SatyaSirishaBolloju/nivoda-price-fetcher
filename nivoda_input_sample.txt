@@ -1,0 +1,3 @@
+file_path = NIVODA_EXCEL_FORMAT.xlsx
+diamond = 3
+token = YOUR_NIVODA_API_TOKEN_HERE  # ⚠️ Replace with real token
