@@ -16,10 +16,9 @@ This Python automation tool reads diamond inventory from an Excel file, sends qu
 ## 📂 Project Structure
 
 ```
-rapnet-diamond-exporter/
-├── nivoda_excel.py                  # Main script
-├── filter.json                      # RapNet filter template
-├── nivoda_excel_sample.txt          # Sample input config (safe to share)
+nivoda-price-fetcher/
+├── nivoda_price_fetcher.py                  # Main script
+├── nivoda_input_sample.txt          # Sample input config (safe to share)
 ├── .gitignore                       # Files to ignore
 └── README.md                        # You're reading it
 
@@ -50,7 +49,7 @@ rapnet-diamond-exporter/
 
 ## 🔐 Security Note
 
-- Do NOT commit nivoda_excel.txt to GitHub.
+- Do NOT commit nivoda_input.txt to GitHub.
 - Use .gitignore to exclude .xlsx and config files.
 - Use nivoda_excel_sample.txt for safe sharing.
   
