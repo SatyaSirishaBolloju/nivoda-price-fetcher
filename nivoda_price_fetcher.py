@@ -10,7 +10,7 @@ def load_excel(file_path):
     return wb, ws
 
 # Read config from txt file
-def load_config(config_path='nivoda_excel.txt'):
+def load_config(config_path='nivoda_input.txt'):
     """Load Excel file path, diamond count, and API token from config."""
     config = {}
     with open(config_path, 'r') as f:
